@@ -2,7 +2,7 @@
 
 JavaScript and WebAssembly Emulator - Sega Genesis, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME32, DOSBox and Virtual Machines.
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/Emulatrix1.png)
+![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README1.png)
 
 ## Web
 
@@ -86,7 +86,7 @@ It's a Web project that is 50% in JavaScript and 50% in WebAssembly. It uses the
 
 ## Emulatrix has mobile compatibility (Android only)
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/Emulatrix2.png)
+![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README2.png)
 
 ## Playing Emulatrix on Android with a USB Keyboard:
 
