@@ -1,14 +1,14 @@
 # Emulatrix
 
-JavaScript and WebAssembly Emulator - Sega Genesis, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOSBox.
+JavaScript and WebAssembly Emulator with mobile compatibility - Sega Genesis, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOSBox.
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README1.png)
+![alt screenshot1](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README1.png)
 
-## Web
+## Website:
 
 https://www.emulatrix.com
 
-## Original core files
+## Original core files:
 
 | PLATFORM  | URL  | CORE
 | :------------ |:---------------:| :-----:|
@@ -21,10 +21,6 @@ https://www.emulatrix.com
 | MAME32 | https://buildbot.libretro.com/stable | mame2003_plus
 | MAME32 | https://buildbot.libretro.com/stable | fbalpha2012
 | DOS | https://github.com/dreamlayers/em-dosbox | dosbox
-
-## Emulatrix has mobile compatibility (Android only)
-
-![alt screenshot](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README2.png)
 
 ## Virtual joystick code
 
