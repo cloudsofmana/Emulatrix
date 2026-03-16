@@ -18,7 +18,7 @@
   </head>
   <body>
     <canvas width="1024" height="589"></canvas>
-    <input type="file" id="screenshot">
+    <input type="file">
     <select>
       <option value="YES" selected>Show logo</option>
       <option value="NO">Hide logo</option>
@@ -319,7 +319,7 @@
       window.addEventListener("load", function () {
         canvas = document.getElementsByTagName("canvas")[0]
         image = document.getElementsByTagName("img")[0]
-        uploader = document.getElementById("screenshot")
+        uploader = document.getElementsByTagName("input")[0]
         renderLogo = document.getElementsByTagName("select")[0]
         laptopSelector = document.getElementsByTagName("select")[1]
         backgroundSelector = document.getElementsByTagName("select")[2]

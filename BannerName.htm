@@ -37,10 +37,18 @@
         for (var y = 0; y < tmpCanvas.height; y++) {
           for (var x = 0; x < tmpCanvas.width; x++) {
             if (pixels.data[(y * tmpCanvas.width + x) * 4 + 3] > 0) {
-              if (y < topRow) topRow = y
-              if (y > bottomRow) bottomRow = y
-              if (x < leftCol) leftCol = x
-              if (x > rightCol) rightCol = x
+              if (y < topRow) {
+                topRow = y
+              }
+              if (y > bottomRow) {
+                bottomRow = y
+              }
+              if (x < leftCol) {
+                leftCol = x
+              }
+              if (x > rightCol) {
+                rightCol = x
+              }
             }
           }
         }
