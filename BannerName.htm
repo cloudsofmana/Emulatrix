@@ -18,22 +18,27 @@
         measure.style.whiteSpace = "nowrap"
         measure.innerText = "Emulatrix"
         document.body.appendChild(measure)
+
         var textWidth = measure.offsetWidth
         var textHeight = measure.offsetHeight
         document.body.removeChild(measure)
+
         var tmpCanvas = document.createElement("canvas")
         tmpCanvas.width = textWidth * 2
         tmpCanvas.height = textHeight * 2
+
         var tmpContext = tmpCanvas.getContext("2d")
         tmpContext.font = fontSize + " Emulatrix"
         tmpContext.fillStyle = "black"
         tmpContext.textBaseline = "top"
         tmpContext.fillText("Emulatrix", 0, 0)
+
         var pixels = tmpContext.getImageData(0, 0, tmpCanvas.width, tmpCanvas.height)
         var topRow = tmpCanvas.height
         var bottomRow = 0
         var leftCol = tmpCanvas.width
         var rightCol = 0
+
         for (var y = 0; y < tmpCanvas.height; y++) {
           for (var x = 0; x < tmpCanvas.width; x++) {
             if (pixels.data[(y * tmpCanvas.width + x) * 4 + 3] > 0) {
@@ -52,11 +57,13 @@
             }
           }
         }
+
         var croppedWidth = rightCol - leftCol + 1
         var croppedHeight = bottomRow - topRow + 1
         var imgCanvas = document.createElement("canvas")
         imgCanvas.width = croppedWidth
         imgCanvas.height = croppedHeight
+
         var imgContext = imgCanvas.getContext("2d")
         imgContext.drawImage(
           tmpCanvas,
@@ -69,6 +76,7 @@
           croppedWidth,
           croppedHeight
         )
+
         var img = document.createElement("img")
         img.style.display = "block"
         img.src = imgCanvas.toDataURL("image/png")
