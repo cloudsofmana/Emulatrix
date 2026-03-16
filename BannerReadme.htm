@@ -194,7 +194,7 @@
         loadedElements = loadedElements + 1
 
         // CHECKING IF THE RIGHT AMOUNT OF ELEMENTS ARE LOADED
-        if (loadedElements < 2) {
+        if (loadedElements < 3) {
           // NO POINT GOING ANY FURTHER
           return
         }
@@ -312,6 +312,21 @@
         }
       }
 
+      function onceFontIsAvailable(cb) {
+        var checkFont = setInterval(function () {
+          var canvasFontChecker = document.createElement("canvas")
+          var context = canvasFontChecker.getContext("2d")
+          context.font = "72px monospace"
+          var defaultWidth = context.measureText("EMULATRIX").width
+          context.font = "72px FredokaOne, monospace"
+          var emulatrixWidth = context.measureText("EMULATRIX").width
+          if (defaultWidth !== emulatrixWidth) {
+            clearInterval(checkFont)
+            cb()
+          }
+        }, 25)
+      }
+
       window.addEventListener("load", function () {
         canvas = document.getElementsByTagName("canvas")[0]
         image = document.getElementsByTagName("img")[0]
@@ -331,6 +346,10 @@
           renderImage()
         })
         imageLogo.src = IMAGE_LOGO
+
+        onceFontIsAvailable(function () {
+          renderImage()
+        })
       })
     </script>
   </body>
