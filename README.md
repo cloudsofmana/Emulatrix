@@ -40,6 +40,6 @@ https://www.emulatrix.com/Banner5.htm
 
 https://www.emulatrix.com/Banner6.htm
 
-https://www.emulatrix.com/BannerTitle.htm
+https://www.emulatrix.com/BannerName.htm
 
-https://www.emulatrix.com/Resources.htm
+https://www.emulatrix.com/BannerResources.htm
