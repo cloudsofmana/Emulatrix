@@ -22,11 +22,11 @@ https://www.emulatrix.com
 | MAME            |   https://buildbot.libretro.com/stable   |   fbalpha2012   |
 | DOS             | https://github.com/dreamlayers/em-dosbox |     dosbox      |
 
-## Virtual joystick code
+## Virtual joystick code:
 
 https://github.com/lrusso/VirtualJoystick
 
-## Banner generators
+## Banner generators:
 
 https://www.emulatrix.com/BannerLaptop.htm
 
