@@ -260,7 +260,7 @@
           // GETTING THE EXTENSION
           var extension = uploader.files[0].name.split(".").pop().toLowerCase()
 
-          if (extension == "jpg" || extension == "jpeg" || extension == "png") {
+          if (extension === "jpg" || extension === "jpeg" || extension === "png") {
             filereader.onload = function () {
               var image1 = new Image()
               image1.onload = function () {
