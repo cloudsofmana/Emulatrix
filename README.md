@@ -38,7 +38,7 @@ Emulatrix is compatible with both Android and iOS devices. However, WebKit on iO
 | MAME            |      https://github.com/lrusso/MAME      |
 | DOS             |      https://github.com/lrusso/DOS       |
 
-## Banner generators
+## Banner generators:
 
 https://www.emulatrix.com/BannerLaptop.htm
 
