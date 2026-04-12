@@ -12,15 +12,15 @@ https://www.emulatrix.com
 
 | PLATFORM        |                   URL                    |
 | :-------------- | :--------------------------------------: |
-| Nintendo        |   https://github.com/lrusso/Nintendo   |
-| Super Nintendo  |   https://github.com/lrusso/SuperNintendo   |
-| GameBoy         |   https://github.com/lrusso/Gameboy   |
-| GameBoy Color   |   https://github.com/lrusso/Gameboy   |
-| GameBoy Advance |   https://github.com/lrusso/GameboyAdvance   |
-| Sega Genesis    |   https://github.com/lrusso/Genesis   |
-| 32x             |   https://github.com/lrusso/Genesis   |
-| MAME            |   https://github.com/lrusso/MAME   |
-| DOS             | https://github.com/lrusso/DOS |
+| Nintendo        |    https://github.com/lrusso/Nintendo    |
+| Super Nintendo  | https://github.com/lrusso/SuperNintendo  |
+| GameBoy         |    https://github.com/lrusso/Gameboy     |
+| GameBoy Color   |    https://github.com/lrusso/Gameboy     |
+| GameBoy Advance | https://github.com/lrusso/GameboyAdvance |
+| Sega Genesis    |    https://github.com/lrusso/Genesis     |
+| 32x             |    https://github.com/lrusso/Genesis     |
+| MAME            |      https://github.com/lrusso/MAME      |
+| DOS             |      https://github.com/lrusso/DOS       |
 
 ## Author's note:
 
