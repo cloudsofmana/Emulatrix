@@ -36,6 +36,6 @@ self.addEventListener("fetch", (event) => {
         }
         return fetch(event.request)
       })
-      .catch((error) => {})
+      .catch((_error) => {})
   )
 })
