@@ -1,6 +1,6 @@
 # Emulatrix
 
-JavaScript and WebAssembly Emulator with mobile compatibility - Sega Genesis, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOSBox. Simply open the link below, click the red icon, and select a ROM file in `NES`, `SMC`, `SFC`, `SRM`, `GB`, `GBC`, `GBA`, `BIN`, `SMD`, `MD` or `ZIP` format from your computer; it will be loaded and booted automatically.
+Emulator with mobile compatibility designed for running in vanilla JavaScript pre-ECMAScript 2015 (no WebAssembly) - Sega Genesis, 32x, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOSBox. Simply open the link below, click the red icon, and select a ROM file in `NES`, `SMC`, `SFC`, `SRM`, `GB`, `GBC`, `GBA`, `BIN`, `SMD`, `MD`, `32x` or `ZIP` format from your computer; it will be loaded and booted automatically.
 
 ![alt screenshot1](https://raw.githubusercontent.com/lrusso/Emulatrix/master/README.png)
 
