@@ -18,9 +18,9 @@ https://www.emulatrix.com
 | 32x             |    https://github.com/lrusso/Genesis     |
 | Nintendo        |    https://github.com/lrusso/Nintendo    |
 | Super Nintendo  | https://github.com/lrusso/SuperNintendo  |
-| GameBoy         |    https://github.com/lrusso/Gameboy     |
-| GameBoy Color   |    https://github.com/lrusso/Gameboy     |
-| GameBoy Advance | https://github.com/lrusso/GameboyAdvance |
+| GameBoy         |    https://github.com/lrusso/GameBoy     |
+| GameBoy Color   |    https://github.com/lrusso/GameBoy     |
+| GameBoy Advance | https://github.com/lrusso/GameBoyAdvance |
 | MAME            |      https://github.com/lrusso/MAME      |
 | DOS             |      https://github.com/lrusso/DOS       |
 
