@@ -10,21 +10,21 @@ https://www.emulatrix.com
 
 ## Original core files:
 
-| PLATFORM        |                   URL                    |      CORE       |
-| :-------------- | :--------------------------------------: | :-------------: |
-| Nintendo        |   https://buildbot.libretro.com/stable   |     fceumm      |
-| Super Nintendo  |   https://buildbot.libretro.com/stable   |   snes9x2010    |
-| GameBoy         |   https://buildbot.libretro.com/stable   |    gambatte     |
-| GameBoy Color   |   https://buildbot.libretro.com/stable   |    gambatte     |
-| GameBoy Advance |   https://buildbot.libretro.com/stable   |    vba_next     |
-| Sega Genesis    |   https://buildbot.libretro.com/stable   | genesis_plus_gx |
-| MAME            |   https://buildbot.libretro.com/stable   |  mame2003_plus  |
-| MAME            |   https://buildbot.libretro.com/stable   |   fbalpha2012   |
-| DOS             | https://github.com/dreamlayers/em-dosbox |     dosbox      |
+| PLATFORM        |                   URL                    |
+| :-------------- | :--------------------------------------: |
+| Nintendo        |   https://github.com/lrusso/Nintendo   |
+| Super Nintendo  |   https://github.com/lrusso/SuperNintendo   |
+| GameBoy         |   https://github.com/lrusso/Gameboy   |
+| GameBoy Color   |   https://github.com/lrusso/Gameboy   |
+| GameBoy Advance |   https://github.com/lrusso/GameboyAdvance   |
+| Sega Genesis    |   https://github.com/lrusso/Genesis   |
+| 32x             |   https://github.com/lrusso/Genesis   |
+| MAME            |   https://github.com/lrusso/MAME   |
+| DOS             | https://github.com/lrusso/DOS |
 
-## Virtual joystick code
+## Author's note:
 
-https://github.com/lrusso/VirtualJoystick
+Emulatrix is compatible with both Android and iOS devices. However, WebKit on iOS has historically lagged behind; for instance, it took nearly a decade for Apple to allow developers to set a custom download filename for an `a` tag. This feature was implemented recently on iOS, so you can now download the game state. Another three iOS quirks: 1) if a slow connection causes the script to take several seconds to load, WebKit may fail to initialize the AudioContext; 2) if you send Safari to the background and return to it, there will be no audio; 3) if you click on the file selector and it takes you several seconds to choose a ROM file, there will be no audio. In any case, a manual tap on the screen is required to enable or re-enable the audio.
 
 ## Banner generators
 
