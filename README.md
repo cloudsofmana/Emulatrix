@@ -30,17 +30,17 @@ Emulatrix is compatible with both Android and iOS devices. However, WebKit on iO
 
 ## Original core files:
 
-| PLATFORM        |                   URL                    |
+| PLATFORM        | URL                                      |
 | :-------------- | :--------------------------------------- |
-| Sega Genesis    |    https://github.com/lrusso/Genesis     |
-| 32x             |    https://github.com/lrusso/Genesis     |
-| Nintendo        |    https://github.com/lrusso/Nintendo    |
+| Sega Genesis    | https://github.com/lrusso/Genesis        |
+| 32x             | https://github.com/lrusso/Genesis        |
+| Nintendo        | https://github.com/lrusso/Nintendo       |
 | Super Nintendo  | https://github.com/lrusso/SuperNintendo  |
-| GameBoy         |    https://github.com/lrusso/GameBoy     |
-| GameBoy Color   |    https://github.com/lrusso/GameBoy     |
+| GameBoy         | https://github.com/lrusso/GameBoy        |
+| GameBoy Color   | https://github.com/lrusso/GameBoy        |
 | GameBoy Advance | https://github.com/lrusso/GameBoyAdvance |
-| MAME            |      https://github.com/lrusso/MAME      |
-| DOS             |      https://github.com/lrusso/DOS       |
+| MAME            | https://github.com/lrusso/MAME           |
+| DOS             | https://github.com/lrusso/DOS            |
 
 ## Banner generators:
 
