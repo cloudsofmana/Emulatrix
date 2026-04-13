@@ -20,6 +20,10 @@ https://www.emulatrix.com
 | Fullscreen mode |  Command + F   |     Ctrl + F     |    Ctrl + F     |
 | Reset game      |  Command + R   |     Ctrl + R     |    Ctrl + R     |
 
+## How to play on mobile devices using a USB keyboard:
+
+Press `C` on the Main Menu to enable or disable mobile controls.
+
 ## Author's note:
 
 Emulatrix is compatible with both Android and iOS devices. However, WebKit on iOS has historically lagged behind; for instance, it took nearly a decade for Apple to allow developers to set a custom download filename for an `a` tag. This feature was implemented recently on iOS, so you can now download the game state. Another three iOS quirks: 1) if a slow connection causes the script to take several seconds to load, WebKit may fail to initialize the AudioContext; 2) if you send Safari to the background and return to it, there will be no audio; 3) if you click on the file selector and it takes you several seconds to choose a ROM file, there will be no audio. In any case, a manual tap on the screen is required to enable or re-enable the audio.
