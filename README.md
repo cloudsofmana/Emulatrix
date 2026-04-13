@@ -31,7 +31,7 @@ Emulatrix is compatible with both Android and iOS devices. However, WebKit on iO
 ## Original core files:
 
 | PLATFORM        |                   URL                    |
-| :-------------- | :--------------------------------------: |
+| :-------------- | :--------------------------------------- |
 | Sega Genesis    |    https://github.com/lrusso/Genesis     |
 | 32x             |    https://github.com/lrusso/Genesis     |
 | Nintendo        |    https://github.com/lrusso/Nintendo    |
