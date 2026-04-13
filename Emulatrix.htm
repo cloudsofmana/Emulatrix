@@ -955,7 +955,9 @@
 
           document.addEventListener("keyup", function (event) {
             if (event.code === "KeyC") {
-              togglePlatformDetection()
+              if (document.getElementsByTagName("canvas").length === 0) {
+                togglePlatformDetection()
+              }
             }
           })
         }
